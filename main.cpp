@@ -24,6 +24,10 @@ int main(int argc, char** argv) {
     
     generarBinAlumnos();
     generarConsolidado();
+    //muestraConsolidado();  //no necesito cerrar el archivo, xq el destructor lo cierra acabando la funcion
+    actualizarConsolidado();
+    generarRep();
+    
     
     return 0;
 }

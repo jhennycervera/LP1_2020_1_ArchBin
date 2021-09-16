@@ -29,6 +29,12 @@ void generarBinAlumnos();
 void muestraConsolidado() ;
 
 void generarConsolidado();
+void actualizarConsolidado();
+void actualizaArch(int , int , double );
+void generarRep();
+
+int obtenerCodigoCarne(int );
+void imprimirLinea(fstream &, char , int ) ;
 
 
 #endif /* FUNCAUX_H */
